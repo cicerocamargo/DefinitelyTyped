@@ -2171,7 +2171,7 @@ interface AlgoliasearchInstance {
 }
 
 interface AlgoliaStatic extends AlgoliasearchInstance {
-    initPlaces(apiKey: string, applicationId: string): algoliasearch.Places.PlaceInterface;
+    initPlaces(applicationId: string, apiKey: string): algoliasearch.Places.PlaceInterface;
 }
 
 declare const algoliasearch: AlgoliaStatic;
